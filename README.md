@@ -3,7 +3,7 @@ log4r outputter support for hipchat
 ```yaml
   outputters:
     - type     : HipchatOutputter
-      name     : hipchater
+      name     : hipchatter
       level    : ALARM
       api_token: 'xxxxxxxxx'
       room     : 'my room'
