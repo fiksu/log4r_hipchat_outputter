@@ -45,7 +45,7 @@ module Log4r
         }
         Logger.log_internal {e}
         self.level = OFF
-        raise e
+        $stderr.puts "error while trying to send hipchat msg #{e.inspect}"
       end # begin
     end # def send_mail
   end # class HipchatOutputter
